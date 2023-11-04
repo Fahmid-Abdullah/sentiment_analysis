@@ -1,12 +1,10 @@
 '''
 Program Name: sentiment_analysis.py
-Due Date: November 17, 2021
 Description: This program imports a tweets file and a keywords file. It then calculates the happiness scores,
 keyword tweets and total tweets for each region. It then returns a tuple with the happiness scores, keyword
 tweets and total tweets in order of Eastern, Central, Mountain and Pacific.
 
 Created by: Fahmid Abdullah
-Student Number: 251244838
 '''
 
 def regionCalculator(lat, long): #calculates which region a coordinate is in
